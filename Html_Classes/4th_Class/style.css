@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 20%;
+    background-color: blueviolet;
+}
+#nav_ul{
+    list-style: none;
+    display: flex;
+    color: white;
+    gap: 50px;
+    margin-right: 50px;
+}
+#nav_ul li:hover{
+    text-decoration: underline;
+    transition-duration: 0.5s;
+    color: black;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;
+}
+a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
